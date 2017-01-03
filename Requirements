@@ -1,5 +1,4 @@
 Requirements : 
-1. Google location API for push notifications
 2. Scan receipts
 3. Read data in receipts images
 4. Categorize expenses and add to specific categories
