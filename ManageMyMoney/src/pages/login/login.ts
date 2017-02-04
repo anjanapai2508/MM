@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {AlertController} from 'ionic-angular';
+import {AccountPage} from '../account/account';
 
 /*
   Generated class for the Login page.
@@ -13,9 +14,10 @@ import {AlertController} from 'ionic-angular';
   templateUrl: 'login.html'
 })
 export class LoginPage {
-
+viewAccount;
   constructor(private Alert: AlertController,public navCtrl: NavController, public navParams: NavParams) {
      this.navCtrl = navCtrl;
+     this.viewAccount=AccountPage;
   }
 
   ionViewDidLoad() {
